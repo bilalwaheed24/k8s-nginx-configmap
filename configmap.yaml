@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Kubernetes Project 2</title>
+    </head>
+    <body style="text-align:center; font-family:Arial;">
+      <h1> Project 2: ConfigMap + Nginx</h1>
+      <p>Deployed by <strong>Bilal Waheed</strong></p>
+      <p>Kubernetes ConfigMap Working Successfully </p>
+    </body>
+    </html>
